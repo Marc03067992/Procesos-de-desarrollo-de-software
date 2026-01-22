@@ -19,7 +19,7 @@ continuar = True
 
 while continuar:
     
-    print("Decide la manera en que saldrá la lista")
+    print("Elige la forma de la lista")
     Decision = input("Descendente(D) / Ascendente(A): ").upper()
     lista = [random.randint(1, 100) for x in range(5)]
     lista2= list(lista)
